@@ -1,4 +1,6 @@
-[![NuGet Version and Downloads count](https://buildstats.info/nuget/TJC.TimeExtensions)](https://www.nuget.org/packages/TJC.TimeExtensions)
+![GitHub Tag](https://img.shields.io/github/v/tag/TJC-Tools/TJC.TimeExtensions) ![NuGet Version](https://img.shields.io/nuget/v/TJC.TimeExtensions)
+
+![NuGet Downloads](https://img.shields.io/nuget/dt/TJC.TimeExtensions) ![Size](https://img.shields.io/github/repo-size/TJC-Tools/TJC.TimeExtensions) ![License](https://img.shields.io/github/license/TJC-Tools/TJC.TimeExtensions.svg)
 
 ## Elapsed Time
 
