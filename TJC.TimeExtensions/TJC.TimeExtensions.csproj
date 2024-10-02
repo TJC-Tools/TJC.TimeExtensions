@@ -33,7 +33,7 @@
   </ItemGroup>
   <!-- DEPENDENCIES -->
   <ItemGroup>
-    <PackageReference Include="TJC.StringExtensions" Version="0.1.0" />
+    <PackageReference Include="TJC.StringExtensions" Version="0.1.10" />
   </ItemGroup>
   <!-- TESTS -->
   <ItemGroup>
