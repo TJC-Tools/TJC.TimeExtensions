@@ -2,7 +2,7 @@
 
 [![NuGet Downloads](https://img.shields.io/nuget/dt/TJC.TimeExtensions)](https://www.nuget.org/packages/TJC.TimeExtensions) ![Size](https://img.shields.io/github/repo-size/TJC-Tools/TJC.TimeExtensions) [![License](https://img.shields.io/github/license/TJC-Tools/TJC.TimeExtensions.svg)](LICENSE)
 
-[![codecov](https://codecov.io/gh/TJC-Tools/TJC.Test/graph/badge.svg?token=92707C5KH4)](https://codecov.io/gh/TJC-Tools/TJC.TimeExtensions)
+[![codecov](https://codecov.io/gh/TJC-Tools/TJC.TimeExtensions/graph/badge.svg?token=RYU0EFZWVQ)](https://codecov.io/gh/TJC-Tools/TJC.TimeExtensions)
 
 ## Elapsed Time
 
