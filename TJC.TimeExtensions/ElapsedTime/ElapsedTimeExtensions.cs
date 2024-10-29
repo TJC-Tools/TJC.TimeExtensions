@@ -2,15 +2,18 @@
 
 public static class ElapsedTimeExtensions
 {
-    public static string GetElapsedTime(this TimeSpan timeSpan,
-                                        int significantFigures = 2,
-                                        bool useLongName = false,
-                                        bool nanosecondsNoDecimals = true)
+    public static string GetElapsedTime(
+        this TimeSpan timeSpan,
+        int significantFigures = 2,
+        bool useLongName = false,
+        bool nanosecondsNoDecimals = true
+    )
     {
         var value = timeSpan.GetElapsedTimeValue();
         var units = timeSpan.GetElapsedTimeUnits(out var isNanoseconds, useLongName);
 
-        var formatSpecifier = nanosecondsNoDecimals && isNanoseconds ? string.Empty : $"F{significantFigures}";
+        var formatSpecifier =
+            nanosecondsNoDecimals && isNanoseconds ? string.Empty : $"F{significantFigures}";
 
         return string.Concat(value.ToString(formatSpecifier), units);
     }
@@ -33,13 +36,14 @@ public static class ElapsedTimeExtensions
             return timeSpan.TotalNanoseconds;
     }
 
-    internal static string GetElapsedTimeUnits(this TimeSpan timeSpan,
-                                              bool useLongName = false) =>
+    internal static string GetElapsedTimeUnits(this TimeSpan timeSpan, bool useLongName = false) =>
         timeSpan.GetElapsedTimeUnits(out _, useLongName);
 
-    internal static string GetElapsedTimeUnits(this TimeSpan timeSpan,
-                                              out bool isNanoseconds,
-                                              bool useLongName = false)
+    internal static string GetElapsedTimeUnits(
+        this TimeSpan timeSpan,
+        out bool isNanoseconds,
+        bool useLongName = false
+    )
     {
         isNanoseconds = false;
         string units;
