@@ -35,7 +35,7 @@
   </ItemGroup>
   <!-- DEPENDENCIES -->
   <ItemGroup>
-    <PackageReference Include="TJC.StringExtensions" Version="0.2.0" />
+    <PackageReference Include="TJC.StringExtensions" Version="0.5.2" />
   </ItemGroup>
   <!-- TESTS -->
   <ItemGroup>
