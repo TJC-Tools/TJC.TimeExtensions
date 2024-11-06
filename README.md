@@ -7,8 +7,3 @@
 [![License](https://img.shields.io/github/license/TJC-Tools/TJC.TimeExtensions.svg)](LICENSE)
 
 [![codecov](https://codecov.io/gh/TJC-Tools/TJC.TimeExtensions/graph/badge.svg?token=RYU0EFZWVQ)](https://codecov.io/gh/TJC-Tools/TJC.TimeExtensions)
-
-## Elapsed Time
-
-### [string](https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-8.0) [TimeSpan](https://learn.microsoft.com/en-us/dotnet/api/system.timespan?view=net-8.0).[GetElapsedTime](./TJC.TimeExtensions/ElapsedTime/ElapsedTimeExtensions.cs)(int significantFigures = 2, bool useLongName = false, bool nanosecondsNoDecimals = true)
-- Extensions for `TimeSpan` that returns the elapsed time in a human readable format.
