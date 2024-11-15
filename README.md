@@ -7,3 +7,6 @@
 [![License](https://img.shields.io/github/license/TJC-Tools/TJC.TimeExtensions.svg)](LICENSE)
 
 [![codecov](https://codecov.io/gh/TJC-Tools/TJC.TimeExtensions/graph/badge.svg?token=RYU0EFZWVQ)](https://codecov.io/gh/TJC-Tools/TJC.TimeExtensions)
+
+## Documentation
+- [Changelog](CHANGELOG.md)
