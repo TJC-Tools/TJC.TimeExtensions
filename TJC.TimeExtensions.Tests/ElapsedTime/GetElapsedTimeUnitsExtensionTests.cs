@@ -1,6 +1,5 @@
 namespace TJC.TimeExtensions.Tests.ElapsedTime;
 
-
 public class GetElapsedTimeUnitsExtensionTests
 {
     [InlineData(1, "d", false)]
