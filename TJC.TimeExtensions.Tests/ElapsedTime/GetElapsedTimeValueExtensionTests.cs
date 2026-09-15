@@ -1,9 +1,9 @@
-﻿namespace TJC.TimeExtensions.Tests.ElapsedTime;
+namespace TJC.TimeExtensions.Tests.ElapsedTime;
 
-[TestClass]
+
 public class GetElapsedTimeValueExtensionTests
 {
-    [TestMethod]
+    [Fact]
     public void GetElapsedTimeValue_TotalSeconds_ReturnsCorrectValue()
     {
         // Arrange
@@ -13,10 +13,10 @@ public class GetElapsedTimeValueExtensionTests
         var result = timeSpan.GetElapsedTimeValue();
 
         // Assert
-        Assert.AreEqual(12, result);
+        Assert.Equal(12, result);
     }
 
-    [TestMethod]
+    [Fact]
     public void GetElapsedTimeValue_TotalMinutes_ReturnsCorrectValue()
     {
         // Arrange
@@ -26,10 +26,10 @@ public class GetElapsedTimeValueExtensionTests
         var result = timeSpan.GetElapsedTimeValue();
 
         // Assert
-        Assert.AreEqual(5, result);
+        Assert.Equal(5, result);
     }
 
-    [TestMethod]
+    [Fact]
     public void GetElapsedTimeValue_TotalNanoseconds_ReturnsCorrectValue()
     {
         // Arrange
@@ -39,6 +39,6 @@ public class GetElapsedTimeValueExtensionTests
         var result = timeSpan.GetElapsedTimeValue();
 
         // Assert
-        Assert.AreEqual(4.2, result);
+        Assert.Equal(4.2, result);
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace TJC.TimeExtensions.ElapsedTime;
+namespace TJC.TimeExtensions.ElapsedTime;
 
 public static class ElapsedTimeExtensions
 {

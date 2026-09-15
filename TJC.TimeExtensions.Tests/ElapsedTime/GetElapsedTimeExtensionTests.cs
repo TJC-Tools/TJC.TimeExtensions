@@ -1,9 +1,9 @@
-﻿namespace TJC.TimeExtensions.Tests.ElapsedTime;
+namespace TJC.TimeExtensions.Tests.ElapsedTime;
 
-[TestClass]
+
 public class GetElapsedTimeExtensionTests
 {
-    [TestMethod]
+    [Fact]
     public void GetElapsedTime_TotalMinutes_ReturnsCorrectElapsedTime()
     {
         // Arrange
@@ -13,10 +13,10 @@ public class GetElapsedTimeExtensionTests
         string result = timeSpan.GetElapsedTime();
 
         // Assert
-        Assert.AreEqual("5.00m", result);
+        Assert.Equal("5.00m", result);
     }
 
-    [TestMethod]
+    [Fact]
     public void GetElapsedTime_TotalMinutes_LongName_ReturnsCorrectElapsedTime()
     {
         // Arrange
@@ -26,10 +26,10 @@ public class GetElapsedTimeExtensionTests
         string result = timeSpan.GetElapsedTime(useLongName: true);
 
         // Assert
-        Assert.AreEqual("5.00 minutes", result);
+        Assert.Equal("5.00 minutes", result);
     }
 
-    [TestMethod]
+    [Fact]
     public void GetElapsedTime_TotalMinutes_SigFigs0_LongName_ReturnsCorrectElapsedTime()
     {
         // Arrange
@@ -39,16 +39,16 @@ public class GetElapsedTimeExtensionTests
         string result = timeSpan.GetElapsedTime(useLongName: true, significantFigures: 0);
 
         // Assert
-        Assert.AreEqual("5 minutes", result);
+        Assert.Equal("5 minutes", result);
     }
 
-    [TestMethod]
+    [Fact]
     public void GetElapsedTime_NanosecondsWithoutDecimals_ReturnsWholeNanoseconds()
     {
         var timeSpan = TimeSpan.FromTicks(1);
 
         var result = timeSpan.GetElapsedTime();
 
-        Assert.AreEqual("100ns", result);
+        Assert.Equal("100ns", result);
     }
 }

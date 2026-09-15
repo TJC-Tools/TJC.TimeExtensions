@@ -6,6 +6,7 @@
 ![Size](https://img.shields.io/github/repo-size/TJC-Tools/TJC.TimeExtensions)
 [![License](https://img.shields.io/github/license/TJC-Tools/TJC.TimeExtensions.svg)](LICENSE)
 
+[![tests](https://github.com/TJC-Tools/TJC.TimeExtensions/actions/workflows/ct-matrix.yml/badge.svg)](https://github.com/TJC-Tools/TJC.TimeExtensions/actions/workflows/ct-matrix.yml)
 [![codecov](https://codecov.io/gh/TJC-Tools/TJC.TimeExtensions/graph/badge.svg?token=RYU0EFZWVQ)](https://codecov.io/gh/TJC-Tools/TJC.TimeExtensions)
 
 ## Documentation
