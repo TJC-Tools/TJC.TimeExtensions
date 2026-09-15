@@ -41,4 +41,14 @@ public class GetElapsedTimeExtensionTests
         // Assert
         Assert.AreEqual("5 minutes", result);
     }
+
+    [TestMethod]
+    public void GetElapsedTime_NanosecondsWithoutDecimals_ReturnsWholeNanoseconds()
+    {
+        var timeSpan = TimeSpan.FromTicks(1);
+
+        var result = timeSpan.GetElapsedTime();
+
+        Assert.AreEqual("100ns", result);
+    }
 }
