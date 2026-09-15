@@ -8,7 +8,7 @@
     <Description>DateTime &amp; TimeSpan Extensions</Description>
     <Authors>Tyler Carrol</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/../CHANGELOG.md"))</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/TJC-Tools/TJC.TimeExtensions</RepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
